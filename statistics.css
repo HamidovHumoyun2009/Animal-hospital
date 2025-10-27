@@ -17,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+.header-top {
+    position: relative;
+}
+
 .home_link {
     margin-top: 26px;
 }
@@ -110,7 +114,7 @@ body {
 
 .logo img {
     position: absolute;
-    left: 65px;
+    left: -210px;
     width: 178px;
     height: 86px;
     display: block;

@@ -24,6 +24,10 @@ body {
 }
 
 .header-top {
+    position: relative;
+}
+
+.header-top {
     display: flex;
     align-items: center;
     padding: 20px 0;
@@ -53,7 +57,7 @@ body {
 
 .logo img {
     position: absolute;
-    left: 65px;
+    left: -210px;
     width: 178px;
     height: 86px;
     display: block;

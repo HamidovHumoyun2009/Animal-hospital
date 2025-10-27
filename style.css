@@ -17,6 +17,9 @@ body {
     margin: 0 auto;
 }
 /* -------------------HEADER----------------------- */
+.header-top {
+    position: relative;
+}
 .home_link {
     margin-top: 26px;
 }
@@ -110,7 +113,7 @@ body {
 
 .logo img {
     position: absolute;
-    left: 65px;
+    left: -210px;
     width: 178px;
     height: 86px;
     display: block;
@@ -343,7 +346,8 @@ body {
 }
 
 .home_img {
-    margin-left: 67px;
+    margin-left: 27px;
+    margin-right: 65px;
 }
 
 .home_link {
@@ -427,6 +431,7 @@ body {
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, 1);
+    padding-left: 22px;
 }
 
 .div_dog {
@@ -811,7 +816,7 @@ body {
     width: 276px;
     color: rgba(255, 255, 255, 1);
     font-size: 56px;
-    padding-left: 177px;
+    padding-left: 110px;
     padding-top: 64px;
     padding-bottom: 8px;
 }
@@ -819,7 +824,7 @@ body {
 .registor_text {
     color: rgba(255, 255, 255, 1);
     font-size: 26px;
-    padding-left: 177px;
+    padding-left: 110px;
 }
 
 .registor_div {
@@ -833,7 +838,7 @@ body {
     position: absolute;
     width: 811px;
     height: 636px;
-    right: -110px;
+    right: -45px;
     bottom: -86px;
     background-image: url(./img/e4960832ce85ad812b21b443bbd021b9c43c314a.png);
     background-size: contain;
@@ -851,38 +856,6 @@ body {
 .regitor_left {
     position: absolute;
     top: 64px;
-    left: 500px;
+    left: 400px;
 }
-
-.text-2 {
-    position: relative;
-    display: inline-block;
-    padding: 15px 36px 16px 63px;
-    background-color: #333333;
-    border-radius: 5px;
-    background-color: rgba(120, 192, 222, 1);
-    color: #fff;
-    margin-top: 35px;
-
-}
-
-.text-2::before {
-    content: "";
-    position: absolute;
-    top: 14px;
-    left: 35px;
-    bottom: 15px;
-    right: 128px;
-    display: inline-block;
-    width: 21px;
-    height: 21px;
-    background-image: url(images/document\ 1\ \(2\).png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.faq_title {
-    color: rgba(51, 51, 51, 1);
-    font-size: 70px;
-    line-height: 64px;
-}
+/*  */
