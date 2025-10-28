@@ -101,7 +101,7 @@ body {
 }
 
 .header-top {
-    margin-left: 258px;
+    margin-left: 196px;
 }
 
 .nav-icon-2 {
@@ -109,7 +109,7 @@ body {
 }
 
 .nav-link {
-    margin-right: 55px;
+    margin-right: 30px;
 }
 
 .logo img {
@@ -416,6 +416,7 @@ body {
     width: 305px;
     background-color: #fff;
     padding: 58px 22px 45px 53px;
+    background-color: rgba(255, 255, 255, 1);
 
 }
 

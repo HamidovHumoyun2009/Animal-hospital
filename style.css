@@ -16,16 +16,19 @@ body {
     padding-right: 20px;
     margin: 0 auto;
 }
+
 /* -------------------HEADER----------------------- */
+.header {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
 .header-top {
     position: relative;
 }
+
+
 .home_link {
     margin-top: 26px;
-}
-
-.header {
-    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 
@@ -100,7 +103,7 @@ body {
 }
 
 .header-top {
-    margin-left: 258px;
+    margin-left: 196px;
 }
 
 .nav-icon-2 {
@@ -108,7 +111,7 @@ body {
 }
 
 .nav-link {
-    margin-right: 55px;
+    margin-right: 30px;
 }
 
 .logo img {
@@ -200,7 +203,9 @@ body {
 }
 
 .hero__title {
-    width: 608px;
+    text-align: left;
+    width: 660px;
+    /* height: 128px; */
     font-size: 70px;
     margin-bottom: 29px;
 }
@@ -209,6 +214,7 @@ body {
     color: rgba(148, 148, 148, 1);
     width: 495px;
     margin-bottom: 38px;
+    text-align: left;
 }
 
 .hero__btn {
@@ -242,8 +248,8 @@ body {
 .qoute-text::before {
     content: "";
     position: absolute;
-    left: -100px;
-    top: -29px;
+    left: -212px;
+    top: -62px;
     width: 58px;
     height: 128px;
     display: inline-block;
@@ -256,8 +262,8 @@ body {
 .qoute-text::after {
     content: "";
     position: absolute;
-    top: 20px;
-    right: -390px;
+    top: 40px;
+    right: -163px;
     width: 58px;
     height: 128px;
     display: inline-block;
@@ -442,7 +448,7 @@ body {
 }
 
 .hero__btn {
-    margin-left: 21px;
+    margin-left: -400px;
 }
 
 .dog_div::before {
@@ -856,6 +862,7 @@ body {
 .regitor_left {
     position: absolute;
     top: 64px;
-    left: 400px;
+    left: 440px;
 }
+
 /*  */
