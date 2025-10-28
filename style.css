@@ -432,6 +432,7 @@ body {
 }
 
 .email {
+    position: absolute;
     width: 335px;
     height: 50px;
     border-radius: 5px;
@@ -448,7 +449,7 @@ body {
 }
 
 .hero__btn {
-    margin-left: -400px;
+    margin-left: 350px;
 }
 
 .dog_div::before {
@@ -494,7 +495,7 @@ body {
 .profit__title {
     font-size: 22px;
     line-height: 25px;
-    width: 182px;
+    width: 250px;
     margin-top: 41px;
     padding-left: 30px;
 }
