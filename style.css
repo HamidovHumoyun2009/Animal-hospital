@@ -449,7 +449,7 @@ body {
 }
 
 .hero__btn {
-    margin-left: 350px;
+    margin-left: -400px;
 }
 
 .dog_div::before {
